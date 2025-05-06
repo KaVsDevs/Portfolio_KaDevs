@@ -514,7 +514,7 @@ const EnhancedProjectsSection = () => {
       
       <div className="text-center">
         <a 
-          href="https://github.com/seunome" 
+          href="https://github.com/KaVsDevs" 
           target="_blank"
           rel="noopener"
           className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-xl text-gray-300 hover:text-white transition-colors text-sm"
