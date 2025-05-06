@@ -48,7 +48,7 @@ const projects = [
       "Agente de IA em Python + LangChain que responde por voz, reduzindo 70% dos tickets de help-desk.",
     impact: "−70% tickets",
     link: "https://voxagent-demo.vercel.app",
-    repo: "https://github.com/seunome/voxagent",
+    repo: "https://github.com/KaVsDevs/voxagent",
     longDescription: "Desenvolvi um assistente virtual com reconhecimento e síntese de voz que resolve problemas comuns de TI. Utiliza LangChain para gerenciar o contexto das conversas e integra a API Azure Speech para converter fala em texto e vice-versa.",
     techStack: ["Python", "LangChain", "FastAPI", "Azure Speech API", "OpenAI API", "Docker"],
     challenges: "O principal desafio foi otimizar a latência da resposta por voz, resolvido com técnicas de streaming de áudio e processamento paralelo.",
@@ -60,7 +60,7 @@ const projects = [
       "App React Native + YOLOv8 que reconhece produtos pela câmera e gera recibos automaticamente.",
     impact: "−95% erros",
     link: "https://visionpay-demo.vercel.app",
-    repo: "https://github.com/seunome/visionpay",
+    repo: "https://github.com/KaVsDevs/visionpay",
     longDescription: "Sistema de ponto de venda que utiliza a câmera do smartphone para identificar produtos automaticamente. Treinei um modelo YOLOv8 customizado com 5.000+ imagens de produtos e implementei um backend para processar pagamentos.",
     techStack: ["React Native", "Python", "YOLOv8", "TensorFlow", "FastAPI", "Docker"],
     challenges: "Treinar o modelo para reconhecer produtos com diferentes ângulos e iluminações, resolvido com técnicas de data augmentation e transfer learning.",
@@ -72,7 +72,7 @@ const projects = [
       "Pipeline Python + LangChain que detecta editais do Diário Oficial com 97% de acurácia e economiza 4 h/dia.",
     impact: "+4 h/dia",
     link: "https://licitacoes-demo.vercel.app",
-    repo: "https://github.com/seunome/dashboard-licitacoes",
+    repo: "https://github.com/KaVsDevs/dashboard-licitacoes",
     longDescription: "Desenvolvi um sistema que monitora diariamente o Diário Oficial, identifica novos editais relevantes usando NLP, extrai informações-chave e as apresenta em um dashboard interativo. Integra notificações via Slack e exportação para Excel.",
     techStack: ["Python", "LangChain", "React", "FastAPI", "PostgreSQL", "Docker", "Make (Integromat)"],
     challenges: "Classificar corretamente os editais relevantes em meio a centenas de publicações diárias, resolvido com fine-tuning de modelos de linguagem.",
@@ -663,13 +663,13 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold mb-5 text-white">Outras formas de contato</h3>
                 
                 <div className="space-y-4 mb-8">
-                  <a href="kmvcpp@gmail.com" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
+                  <a href="mailto:kmvcpp@gmail.com" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
                     <div className="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
                       <Mail className="w-5 h-5 text-cyan-400" />
                     </div>
                     <div>
                       <h4 className="font-medium text-white">Email</h4>
-                      <p className="text-sm text-gray-400 group-hover:text-cyan-400 transition-colors">email@dominio.com</p>
+                      <p className="text-sm text-gray-400 group-hover:text-cyan-400 transition-colors">kmvcpp@gmail.com</p>
                     </div>
                   </a>
                   
@@ -679,7 +679,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">LinkedIn</h4>
-                      <p className="text-sm text-gray-400 group-hover:text-blue-400 transition-colors">linkedin.com/in/seunome</p>
+                      <p className="text-sm text-gray-400 group-hover:text-blue-400 transition-colors">linkedin.com/feed/</p>
                     </div>
                   </a>
                   
@@ -689,7 +689,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-white">GitHub</h4>
-                      <p className="text-sm text-gray-400 group-hover:text-purple-400 transition-colors">github.com/seunome</p>
+                      <p className="text-sm text-gray-400 group-hover:text-purple-400 transition-colors">github.com/KaVsDevs</p>
                     </div>
                   </a>
                 </div>
@@ -704,7 +704,7 @@ const ContactSection = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <a 
-                      href="https://calendly.com/seu-link" 
+                      href="https://calendly.com/karen-vasconcelos" 
                       target="_blank"
                       rel="noopener"
                       className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 rounded-lg text-white text-sm font-medium flex items-center justify-center gap-2"
@@ -738,7 +738,7 @@ const ContactSection = () => {
             
             <div className="flex gap-6">
               <a 
-                href="kmvcpp@gmail.com" 
+                href="mailto:kmvcpp@gmail.com" 
                 className="text-gray-400 hover:text-cyan-400"
                 aria-label="Email"
               >
@@ -913,7 +913,7 @@ export default function App() {
                   </a>
                   
                   <div className="flex justify-center gap-8 mt-8">
-                    <a href="kmvcpp@gmail.com" className="text-gray-400 hover:text-cyan-400">
+                    <a href="mailto:kmvcpp@gmail.com" className="text-gray-400 hover:text-cyan-400">
                       <Mail className="w-6 h-6" />
                     </a>
                     <a href="https://github.com/KaVsDevs" target="_blank" rel="noopener" className="text-gray-400 hover:text-cyan-400">
@@ -1004,7 +1004,7 @@ export default function App() {
         <div className="mt-14 flex gap-6">
           <a
             aria-label="Email"
-            href="kmvcpp@gmail.com"
+            href="mailto:kmvcpp@gmail.com"
             className="text-gray-400 hover:text-cyan-400 transition-colors"
           >
             <Mail className="w-6 h-6" />
