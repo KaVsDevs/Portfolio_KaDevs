@@ -663,7 +663,7 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold mb-5 text-white">Outras formas de contato</h3>
                 
                 <div className="space-y-4 mb-8">
-                  <a href="mailto:email@dominio.com" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
+                  <a href="kmvcpp@gmail.com" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
                     <div className="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
                       <Mail className="w-5 h-5 text-cyan-400" />
                     </div>
@@ -673,7 +673,7 @@ const ContactSection = () => {
                     </div>
                   </a>
                   
-                  <a href="https://linkedin.com/in/seunome" target="_blank" rel="noopener" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
+                  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
                     <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
                       <Linkedin className="w-5 h-5 text-blue-400" />
                     </div>
@@ -683,7 +683,7 @@ const ContactSection = () => {
                     </div>
                   </a>
                   
-                  <a href="https://github.com/seunome" target="_blank" rel="noopener" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
+                  <a href="https://github.com/KaVsDevs" target="_blank" rel="noopener" className="flex items-center gap-4 p-3 rounded-lg bg-gray-800/40 hover:bg-gray-800/70 border border-gray-700/50 group transition-colors">
                     <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center">
                       <Github className="w-5 h-5 text-purple-400" />
                     </div>
@@ -738,14 +738,14 @@ const ContactSection = () => {
             
             <div className="flex gap-6">
               <a 
-                href="mailto:email@dominio.com" 
+                href="kmvcpp@gmail.com" 
                 className="text-gray-400 hover:text-cyan-400"
                 aria-label="Email"
               >
                 <Mail className="w-5 h-5" />
               </a>
               <a 
-                href="https://github.com/seunome" 
+                href="https://github.com/KaVsDevs" 
                 target="_blank"
                 rel="noopener"
                 className="text-gray-400 hover:text-cyan-400"
@@ -754,7 +754,7 @@ const ContactSection = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/seunome" 
+                href="https://www.linkedin.com/feed/" 
                 target="_blank"
                 rel="noopener"
                 className="text-gray-400 hover:text-cyan-400"
@@ -913,13 +913,13 @@ export default function App() {
                   </a>
                   
                   <div className="flex justify-center gap-8 mt-8">
-                    <a href="mailto:email@dominio.com" className="text-gray-400 hover:text-cyan-400">
+                    <a href="kmvcpp@gmail.com" className="text-gray-400 hover:text-cyan-400">
                       <Mail className="w-6 h-6" />
                     </a>
-                    <a href="https://github.com/seunome" target="_blank" rel="noopener" className="text-gray-400 hover:text-cyan-400">
+                    <a href="https://github.com/KaVsDevs" target="_blank" rel="noopener" className="text-gray-400 hover:text-cyan-400">
                       <Github className="w-6 h-6" />
                     </a>
-                    <a href="https://linkedin.com/in/seunome" target="_blank" rel="noopener" className="text-gray-400 hover:text-cyan-400">
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener" className="text-gray-400 hover:text-cyan-400">
                       <Linkedin className="w-6 h-6" />
                     </a>
                   </div>
@@ -1004,14 +1004,14 @@ export default function App() {
         <div className="mt-14 flex gap-6">
           <a
             aria-label="Email"
-            href="mailto:email@dominio.com"
+            href="kmvcpp@gmail.com"
             className="text-gray-400 hover:text-cyan-400 transition-colors"
           >
             <Mail className="w-6 h-6" />
           </a>
           <a
             aria-label="GitHub"
-            href="https://github.com/seunome"
+            href="https://github.com/KaVsDevs"
             target="_blank"
             rel="noopener"
             className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -1020,7 +1020,7 @@ export default function App() {
           </a>
           <a
             aria-label="LinkedIn"
-            href="https://linkedin.com/in/seunome"
+            href="https://www.linkedin.com/feed/"
             target="_blank"
             rel="noopener"
             className="text-gray-400 hover:text-cyan-400 transition-colors"
